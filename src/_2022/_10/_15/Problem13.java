@@ -3,7 +3,7 @@ package _2022._10._15;
 import java.util.HashMap;
 import java.util.Map;
 
-public class romanToInteger {
+public class Problem13 {
     public static void main(String[] args) {
         System.out.println(romanToInt("III"));
         System.out.println(romanToInt("LVIII"));
