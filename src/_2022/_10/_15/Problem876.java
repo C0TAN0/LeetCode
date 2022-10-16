@@ -1,6 +1,9 @@
 package _2022._10._15;
 
 public class Problem876 {
+    public static void main(String[] args) {
+
+    }
     public static ListNode middleNode(ListNode head) {
         if (head==null||head.next==null){
             return head;
@@ -20,16 +23,3 @@ public class Problem876 {
     }
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
